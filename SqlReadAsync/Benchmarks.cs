@@ -7,10 +7,10 @@ namespace SqlReadAsync;
 [SimpleJob(1, 1, 1, 1, "1", false)]
 public class Benchmarks
 {
-	private const string SERVER = "TOM-LAP";
-	private const string DATABASE = "test1";
+	private const string SERVER = "server";
+	private const string DATABASE = "db";
 	private const string USER = "sa";
-	private const string PASSWORD = "Qq987987--";
+	private const string PASSWORD = "password";
 	private const string CONNECTION_STRING = $"Data Source={SERVER};Initial Catalog={DATABASE};User ID={USER};Password={PASSWORD};Trust Server Certificate=True;Pooling=False;";
 	
 	#region TABLE SQL
